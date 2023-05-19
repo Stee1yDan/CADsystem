@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\cad-dev-winforms"
+    "\\cad-dev-winforms",
+    "\\cad-dev-winforms\\obj"
   ],
-  "SelectedNode": "\\cad-dev-winforms\\MainForm.cs",
+  "SelectedNode": "\\cad-dev-winforms\\obj\\Debug",
   "PreviewInSolutionExplorer": false
 }

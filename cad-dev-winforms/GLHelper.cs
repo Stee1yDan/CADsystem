@@ -9,16 +9,6 @@ namespace cad_dev_winforms
 {
     public static class GLHelper
     {
-        /// <summary>
-        /// Отрисовка линии
-        /// </summary>
-        /// <param name="gl">Объект OpenGL</param>
-        /// <param name="invertY">Инвертировать ли координату по оси Y</param>
-        /// <param name="startX">Значение X координаты точки начала</param>
-        /// <param name="startY">Значение Y координаты точки начала</param>
-        /// <param name="endX">Значение X координаты точки конца</param>
-        /// <param name="endY">Значение Y координаты точки конца</param>
-        /// <param name="useOwnBegin">Использовать директивы Begin и End</param>
         public static void DrawLine3D(SharpGL.OpenGL gl, bool invertY, bool invertZ, float startX, float startY, float startZ, float endX, float endY, float endZ, bool useOwnBegin)
         {
             if (useOwnBegin) { gl.Begin(OpenGL.GL_LINES); }

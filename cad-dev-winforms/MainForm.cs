@@ -36,9 +36,9 @@ namespace cad_dev_winforms
 
             this.openGLControl.DrawFPS = true;
 
-            this.openGLControl.OpenGLInitialized += OpenGLControl_OpenGLInitialized; //
-            this.openGLControl.Resized += OpenGLControl_Resized;                     // "подписка" на основные события компоненты отрисовки OpenGL графики
-            this.openGLControl.OpenGLDraw += OpenGLControl_OpenGLDraw;               //
+            this.openGLControl.OpenGLInitialized += OpenGLControl_OpenGLInitialized; 
+            this.openGLControl.Resized += OpenGLControl_Resized;                     
+            this.openGLControl.OpenGLDraw += OpenGLControl_OpenGLDraw;               
 
             this.Size = new Size(800, 600);
         }
